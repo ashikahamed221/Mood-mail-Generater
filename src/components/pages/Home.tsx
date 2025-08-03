@@ -14,15 +14,15 @@ const Home = () => {
 
     if(lowermood.includes('happy'))
     {
-      setsubject("feeling Great Today")
+      setsubject("☺️feeling Great Today")
       setfooter("Stay Awesome")
     }
     else if(lowermood.includes("sad")){
-        setsubject("Just another tough day");
+        setsubject("😔Just another tough day");
         setfooter("sending hugs")
     }
     else if(lowermood.includes("angry")){
-        setsubject("Need to cool of...");
+        setsubject("😎Need to cool of...");
         setfooter("Deep break")
     }
     else{
